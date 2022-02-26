@@ -80,16 +80,17 @@
 /* END CHECKED SITE NAVIGATION */
 .navigation-list {
   position: relative;
-}
-.sub-navigation:hover::after {
-  position: absolute;
-  content: "";
-  height: 4px;
-  width: 100%;
-  background-color: var(--main-color);
-  border-radius: 2px;
-  margin: 0;
-  padding: 0;
-  top: 46px;
-  left: 0;
+
+    &:hover::after {
+      position: absolute;
+      content: "";
+      height: 4px;
+      width: 100%;
+      background-color: var(--main-color);
+      border-radius: 2px;
+      margin: 0;
+      padding: 0;
+      top: 46px;
+      left: 0;
+    }
 }
