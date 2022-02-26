@@ -1,6 +1,8 @@
-@import './base/common';
-@import './base/container';
-@import './base/section';
+@import './utils/variables.scss';
+
+@import './base/common.scss';
+@import './base/container.scss';
+@import './base/section.scss';
 
 @import './components/adress.scss';
 @import './components/buttons.scss';

@@ -618,8 +618,6 @@ transform: translateY(-100%);
     0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
-
-
 .list-group:nth-child(4n+1) .btn-item{
   width: 121px;
   height: 38px;

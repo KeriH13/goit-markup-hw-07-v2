@@ -32,6 +32,39 @@ img {
   display: block;
 }
 
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #2196f3;
+  /* ---dodatek--- */
+  --secondary-color: #cd329a;
+  --small-font: 14px;
+  --big-font: 44px;
+}
+
+body {
+  font-family: var(--main-font);
+  background-color: #ffffff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+}
+
 .wrapper-all-nav {
   border-bottom: 1px solid #ececec;
 }
@@ -190,8 +223,8 @@ img {
 }
 
 /* .btn-item:active {
-  background-color: var(--secondary-color);
-} */
+            background-color: var(--secondary-color);
+          } */
 footer {
   background-color: #2f303a;
 }
