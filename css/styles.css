@@ -16,6 +16,8 @@
   --main-color: #2196f3;
   /* ---dodatek--- */
   --secondary-color: #cd329a;
+  --small-font: 14px;
+  --big-font: 44px;
 }
 
 body {
